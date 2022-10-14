@@ -1,3 +1,9 @@
+-- CREATE STATEMENTS:
+DROP DATABASE IF EXISTS quench_db;
+CREATE DATABASE IF NOT EXISTS quench_db;
+USE quench_db; 
+DROP TABLE IF EXISTS card, company, customer;
+
 CREATE TABLE customer(
 customer_id  VARCHAR(20) NOT NULL,
 name VARCHAR(20),
