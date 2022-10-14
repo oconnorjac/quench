@@ -2,7 +2,8 @@ INSERT INTO company VALUES
 ("C00001", "Starbucks", "Rocky road 85, Dundalk, Ireland", "Coffee","starbucksAddStamp", TRUE ),
 ("C00002", "Costa", "Bubble road 12, Dublin, Ireland", "Coffee","costaAddStamp", TRUE ),
 ("C00003", "LocalCoffee", "Long road 145, Cork, Ireland", "Coffee","localCoffeeAddStamp", TRUE ),
-("C00004", "GenericCoffeeShop", "Bila cesta, Teplice, Czechia", "Coffee","genericCoffeeAddStamp", false ),("F00001", "McDonalds", "St.Antonio streat, Porto, Portugal", "Fast food","burgerAddStamp", false );
+("C00004", "GenericCoffeeShop", "Bila cesta, Teplice, Czechia", "Coffee","genericCoffeeAddStamp", false ),
+("F00001", "McDonalds", "St.Antonio streat, Porto, Portugal", "Fast food","burgerAddStamp", false );
 
 INSERT INTO customer VALUES 
 ("U00000000001","John Duffy","johnyduff@gmail.com","J1234", 0890123456),
