@@ -24,7 +24,7 @@ CREATE TABLE company(
 PRIMARY KEY (company_id)
 );
 
-    CREATE TABLE card(
+CREATE TABLE card(
     card_id VARCHAR(20) NOT NULL,
     customer_id VARCHAR(20),
     company_id VARCHAR(20),
