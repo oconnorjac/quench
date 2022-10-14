@@ -10,7 +10,7 @@ CREATE TABLE customer(
     name VARCHAR(20),
     email VARCHAR(20),
     password VARCHAR(20),
-    telephone INTEGER(13),
+    telephone VARCHAR(13),
 PRIMARY KEY (customer_id)
 );
 
